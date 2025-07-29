@@ -1,0 +1,9 @@
+# Ignore all C/C++ source and header files
+*.c
+*.cpp
+*.cc
+*.cxx
+*.h
+*.hpp
+*.hh
+*.hxx
