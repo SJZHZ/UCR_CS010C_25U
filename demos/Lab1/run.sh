@@ -1,0 +1,1 @@
+g++ main.cpp Playlist.cpp -Wall -o a.out && ./a.out
