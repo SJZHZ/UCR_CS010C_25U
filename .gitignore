@@ -6,5 +6,5 @@
 **/*.hpp
 
 # Except demo
-!demo/
-!demo/**/*
+!demos/
+!demos/**/*
