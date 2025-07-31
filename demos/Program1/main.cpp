@@ -1,6 +1,14 @@
 #include "iostream"
 using namespace std;
 
+int josephus(int n, int k)      // just for fun
+{
+    int res = 0;
+    for (int i = 1; i <= n; i++)
+        res = (res + k) % i;
+    return res;
+}
+
 struct Person
 {
     string name;
