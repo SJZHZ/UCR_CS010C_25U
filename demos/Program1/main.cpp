@@ -55,14 +55,9 @@ int main()
     std::string name;
     while (true)
     {
-        std::cin >> name;
-        if (name == ".")
-            break;
-        if (count < n)
-        {
-            circle.addPerson(name);
-            count++;
-        }
+        // input
+        // add person
+        // limit to n persons
     }
     Person *temp = circle.getCircleHead();
     for (int i = 0; i < count - 1; ++i)
