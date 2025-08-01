@@ -7,7 +7,8 @@ TA: Yue Zhu
 Source code has been hiden.
 ```txt
 ```
-## Sample Output
+
+<!-- ## Sample Output
 Since zyBook Lab sometimes provide only first few or last few lines of expected output, 
 you can try my sample output instead (for comparison).  
 The executable file is named "b.out" to avoid overwriting. (If I forgot, rename it.)
@@ -27,4 +28,4 @@ The executable file is named "b.out" to avoid overwriting. (If I forgot, rename 
 # paste the test input
 ./b.out > b.txt
 # paste the test input
-```
+``` -->
