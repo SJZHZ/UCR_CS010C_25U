@@ -15,11 +15,15 @@ The executable file is named "b.out" to avoid overwriting. (If I forgot, rename 
 2. Upload: certain zyBook Lab -> code editor -> File -> upload
 3. Permission: use "chmod 777 b.out"
 4. Run and Compare
-
-For a better comparison, try 
 ```bash
-./a.out >> a.txt
+./a.out
 # paste the test input
-./b.out >> b.txt
+./b.out
+# paste the test input
+
+# For a better comparison, try 
+./a.out > a.txt
+# paste the test input
+./b.out > b.txt
 # paste the test input
 ```
