@@ -4,6 +4,7 @@
 **/*.cc
 **/*.h
 **/*.hpp
+**/b.out
 
 # Except demo
 !demos/

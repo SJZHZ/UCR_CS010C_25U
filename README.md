@@ -8,8 +8,8 @@ Source code has been hiden.
 ```txt
 ```
 ## Sample Output
-Since zyBook Lab sometimes provide strange expected output, 
-you can try my sample output instead(for comparison).  
+Since zyBook Lab sometimes provide only first few or last few lines of expected output, 
+you can try my sample output instead (for comparison).  
 The executable file is named "b.out" to avoid overwriting. (If I forgot, rename it.)
 1. Download: "b.out" file in certain Lab or Program folder(not demos).
 2. Upload: certain zyBook Lab -> code editor -> File -> upload
@@ -18,6 +18,7 @@ The executable file is named "b.out" to avoid overwriting. (If I forgot, rename 
 ```bash
 ./a.out
 # paste the test input
+# open another terminal/console
 ./b.out
 # paste the test input
 

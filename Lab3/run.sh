@@ -1,1 +1,1 @@
-g++ main.cpp -Wall -Werror -o a.out && chmod +x a.out && ./a.out
+g++ main.cpp WordLadder.cpp -Wall -Werror -Wextra -Wuninitialized -pedantic-errors -Wconversion -o b.out && chmod +x b.out && ./b.out
