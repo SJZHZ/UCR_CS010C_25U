@@ -1,1 +1,1 @@
-g++ main.cpp Playlist.cpp -Wall -o a.out && ./a.out
+g++ main.cpp Playlist.cpp -Wall -o b.out && chmod +x b.out && ./b.out

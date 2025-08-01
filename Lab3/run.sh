@@ -1,1 +1,1 @@
-g++ main.cpp -Wall -Werror -o a.out && ./a.out
+g++ main.cpp -Wall -Werror -o a.out && chmod +x a.out && ./a.out

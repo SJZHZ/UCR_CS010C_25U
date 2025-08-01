@@ -18,23 +18,28 @@ void PlaylistNode::SetNext(PlaylistNode *node)
 }
 std::string PlaylistNode::GetID() const
 {
-    return this->uniqueID;
+    // Obviously this is not the correct implementation
+    return "";
 }
 std::string PlaylistNode::GetSongName() const
 {
-    return this->songName;
+    // Obviously this is not the correct implementation
+    return "";
 }
 std::string PlaylistNode::GetArtistName() const
 {
-    return this->artistName;
+    // Obviously this is not the correct implementation
+    return "";
 }
 int PlaylistNode::GetSongLength() const
 {
-    return this->songLength;
+    // Obviously this is not the correct implementation
+    return 0;
 }
 PlaylistNode *PlaylistNode::GetNext() const
 {
-    return this->nextNodePtr;
+    // Obviously this is not the correct implementation
+    return nullptr;
 }
 void PlaylistNode::PrintPlaylistNode() const
 {

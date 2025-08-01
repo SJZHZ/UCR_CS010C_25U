@@ -19,9 +19,11 @@ private:
 
 public:
     IntList();
-    ~IntList();
-    IntList(const IntList &other);
-    IntList& operator=(const IntList &other);
+    // Big 3
+    ~IntList();                                 // Destructor
+    IntList(const IntList &other);              // Copy constructor
+    IntList& operator=(const IntList &other);   // Assignment operator
+
     void push_front(int value);
     void pop_front();
     void push_back(int value);

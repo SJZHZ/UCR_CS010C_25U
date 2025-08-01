@@ -1,1 +1,1 @@
-g++ IntList.cpp main.cpp -Wall -Werror -Wextra -Wuninitialized -o a.out && ./a.out
+g++ IntList.cpp main.cpp -Wall -Werror -Wextra -Wuninitialized -o b.out && chmod +x b.out && ./b.out
