@@ -21,8 +21,8 @@ public:
     IntList();
     // Big 3
     ~IntList();                                 // Destructor
-    IntList(const IntList &other);              // Copy constructor
-    IntList& operator=(const IntList &other);   // Assignment operator
+    // IntList(const IntList &other);              // Copy constructor
+    // IntList& operator=(const IntList &other);   // Assignment operator
 
     void push_front(int value);
     void pop_front();

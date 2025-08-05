@@ -17,41 +17,32 @@ IntList::~IntList()
         std:: cout << "Deleting node with value: " << dummyHead->next->data << " at address: " << dummyHead->next << std::endl;
         pop_front();
     }
-    delete dummyHead;
-    delete dummyTail;
+    if (dummyHead != nullptr)
+        delete dummyHead;
+    if (dummyTail != nullptr)
+        delete dummyTail;
 }
 
-IntList::IntList(const IntList &other)
-{
-    dummyHead = new IntNode(0);
-    dummyTail = new IntNode(0);
-    dummyHead->next = dummyTail;
-    dummyTail->prev = dummyHead;
+// IntList::IntList(const IntList &other)
+// {
+//     dummyHead = new IntNode(0);
+//     dummyTail = new IntNode(0);
+//     dummyHead->next = dummyTail;
+//     dummyTail->prev = dummyHead;
 
-    IntNode *current = other.dummyTail->prev;
-    while (current != other.dummyHead)
-    {
-        push_front(current->data);
-        current = current->prev;
-    }
-}
+//     IntNode *current = other.dummyTail->prev;
+//     while (current != other.dummyHead)
+//     {
+//         push_front(current->data);
+//         current = current->prev;
+//     }
+// }
 
-IntList& IntList::operator=(const IntList &other)
-{
-    if (this == &other) // Check for self-assignment
-        return *this;
-
-    while (!empty())    // Clear current list
-        pop_front();
-
-    IntNode *current = other.dummyTail->prev;
-    while (current != other.dummyHead)
-    {
-        push_front(current->data);
-        current = current->prev;
-    }
-    return *this; // Return the current object
-}
+// IntList& IntList::operator=(const IntList &other)
+// {
+//     // demo
+//     return (IntList&)other;
+// }
 
 void IntList::push_front(int value)
 {

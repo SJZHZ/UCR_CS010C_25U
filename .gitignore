@@ -4,7 +4,9 @@
 **/*.cc
 **/*.h
 **/*.hpp
-**/b.out
+
+# No sample executable files
+**/*.out
 
 # Except demo
 !demos/
