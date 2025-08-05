@@ -1,5 +1,5 @@
-g++ -W -Wall -Werror -g -std=c++11 main.cpp -o main
-./main
+g++ -W -Wall -Werror -g -std=c++11 main.cpp -o main.out
+./main.out
 
 for i in {1..6}
 do
