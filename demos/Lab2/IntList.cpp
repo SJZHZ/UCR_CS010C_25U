@@ -25,17 +25,7 @@ IntList::~IntList()
 
 // IntList::IntList(const IntList &other)
 // {
-//     dummyHead = new IntNode(0);
-//     dummyTail = new IntNode(0);
-//     dummyHead->next = dummyTail;
-//     dummyTail->prev = dummyHead;
-
-//     IntNode *current = other.dummyTail->prev;
-//     while (current != other.dummyHead)
-//     {
-//         push_front(current->data);
-//         current = current->prev;
-//     }
+//    demo
 // }
 
 // IntList& IntList::operator=(const IntList &other)
