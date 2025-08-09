@@ -16,6 +16,12 @@ Type "apropos word" to search for commands related to "word"...
 Reading symbols from ./buggy...done.
 -----SETTING BREAKPOINT-----
 Breakpoint 1 at 0x400617: file buggy.cpp, line 7.
+Breakpoint 2 at 0x400601: file buggy.cpp, line 5.
+-----INFORMATION OF ALL BREAKPOINTS-----
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000400617 in calculate_sum(int*, int) at buggy.cpp:7
+2       breakpoint     keep y   0x0000000000400601 in calculate_sum(int*, int) at buggy.cpp:5
+-----DELETING BREAKPOINT-----
 -----RUNNING-----
 
 Breakpoint 1, calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
@@ -58,8 +64,12 @@ my_array[i]:$5 = 32767
 -----BACKTRACE-----
 #0  calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
 #1  0x0000000000400688 in main () at buggy.cpp:17
+-----FINISH-----
+0x0000000000400688 in main () at buggy.cpp:17
+17	    int result = calculate_sum(my_array, total_size);
+Value returned is $6 = 32917
 Calculating the sum...
 The sum is: 32917
 It should be: 150
-[Inferior 1 (process 427624) exited normally]
+[Inferior 1 (process 437916) exited normally]
 -----QUIT-----
