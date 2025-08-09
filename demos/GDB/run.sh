@@ -1,0 +1,1 @@
+g++ -g buggy.cpp -o buggy && gdb -x sample.gdb ./buggy > gdb_output.txt
