@@ -46,7 +46,7 @@ echo i:
 p i
 echo size:
 p size
-echo my_array[i]:
+echo arr[i]:
 p arr[i]
 
 # backtrace
