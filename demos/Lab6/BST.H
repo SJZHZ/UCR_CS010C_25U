@@ -109,8 +109,10 @@ public:
     --depth;
   }
 
-void write_to_file() { 
+void write_to_file(int mode) { 
  
+    if (mode == 0)
+      return;
     cout << "digraph G {\n" << endl;
     queue<BinaryNode*> q;
     

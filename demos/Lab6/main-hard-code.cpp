@@ -51,7 +51,8 @@ int main(/*int argc, char* argv[]*/) {
   
   // You can set depth here
   // do_sth();
-  t.write_to_file();  // Or set depth inside this function
+  int mode = 1; // 1:depth, 2:preorder, 3:inorder, 4:postorder
+  t.write_to_file(mode);  // Or set depth inside this function
   
   cout << "Good bye!" << endl;
   return 0;
