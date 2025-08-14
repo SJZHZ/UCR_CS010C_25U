@@ -24,7 +24,7 @@ Num     Type           Disp Enb Address            What
 -----DELETING BREAKPOINT-----
 -----RUNNING-----
 
-Breakpoint 1, calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
+Breakpoint 1, calculate_sum (arr=0x7fffffffd150, size=5) at buggy.cpp:7
 7	        sum += arr[i];
 -----LISTING THE SOURCE CODE-----
 2	
@@ -44,25 +44,25 @@ size:$2 = 5
 6	    for (int i = 0; i <= size; i++)
 -----STEP-----
 
-Breakpoint 1, calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
+Breakpoint 1, calculate_sum (arr=0x7fffffffd150, size=5) at buggy.cpp:7
 7	        sum += arr[i];
 -----STEP TWICE-----
 
-Breakpoint 1, calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
+Breakpoint 1, calculate_sum (arr=0x7fffffffd150, size=5) at buggy.cpp:7
 7	        sum += arr[i];
 -----CONTINUE-----
 
-Breakpoint 1, calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
+Breakpoint 1, calculate_sum (arr=0x7fffffffd150, size=5) at buggy.cpp:7
 7	        sum += arr[i];
 
-Breakpoint 1, calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
+Breakpoint 1, calculate_sum (arr=0x7fffffffd150, size=5) at buggy.cpp:7
 7	        sum += arr[i];
 -----BUG HERE-----
 i:$3 = 5
 size:$4 = 5
 arr[i]:$5 = 32767
 -----BACKTRACE-----
-#0  calculate_sum (arr=0x7fffffffcf90, size=5) at buggy.cpp:7
+#0  calculate_sum (arr=0x7fffffffd150, size=5) at buggy.cpp:7
 #1  0x0000000000400688 in main () at buggy.cpp:17
 -----FINISH-----
 0x0000000000400688 in main () at buggy.cpp:17
@@ -71,5 +71,5 @@ Value returned is $6 = 32917
 Calculating the sum...
 The sum is: 32917
 It should be: 150
-[Inferior 1 (process 496588) exited normally]
+[Inferior 1 (process 698869) exited normally]
 -----QUIT-----
