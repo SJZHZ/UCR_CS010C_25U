@@ -49,10 +49,10 @@ int main(/*int argc, char* argv[]*/) {
   cout << "postorder:\n";
   t.postorder();   // print postorder traveresal
   
-  // You can set depth here
+  // You can set values here
   // do_sth();
   int mode = 1; // 1:depth, 2:preorder, 3:inorder, 4:postorder
-  t.write_to_file(mode);  // Or set depth inside this function
+  t.write_to_file(mode);  // Or set values inside this function
   
   cout << "Good bye!" << endl;
   return 0;
