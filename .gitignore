@@ -12,6 +12,3 @@
 # Except demo
 !demos/
 !demos/**/*
-
-!GDB/
-!GDB/**/*
