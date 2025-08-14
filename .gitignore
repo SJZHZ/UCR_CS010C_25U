@@ -3,6 +3,7 @@
 **/*.cpp
 **/*.cc
 **/*.h
+**/*.H
 **/*.hpp
 
 # No sample executable files
