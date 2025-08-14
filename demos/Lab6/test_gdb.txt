@@ -1,0 +1,14 @@
+b BST.H:85
+info b
+r
+
+p t->value
+p t->right->value
+p t->right->right->value
+
+# c
+# c
+p t->value
+bt
+
+q
