@@ -11,4 +11,4 @@
 
 g++ -W -Wall -Werror -g -std=c++14 main-hard-code.cpp 
 ./a.out
-gdb -x test_gdb.txt ./a.out
+# gdb -x test_gdb.txt ./a.out

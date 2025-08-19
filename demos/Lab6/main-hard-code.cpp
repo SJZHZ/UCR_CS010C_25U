@@ -14,25 +14,25 @@ using namespace std;
 
 int main(/*int argc, char* argv[]*/) {
   
-  BST t;
-  t.insert(4);
-  t.insert(2);
-  t.insert(6);
-  t.insert(1);
-  t.insert(3);
-  t.insert(5);
-  t.insert(7);
+  // BST t;
+  // t.insert(4);
+  // t.insert(2);
+  // t.insert(6);
+  // t.insert(1);
+  // t.insert(3);
+  // t.insert(5);
+  // t.insert(7);
   
   /*
+  */
   BST t;
   t.insert(45);
+  t.insert(15);
   t.insert(25);
   t.insert(65);
-  t.insert(15);
   t.insert(35);
   t.insert(55);
   t.insert(75);
-  */
   
 
   //t.print();
