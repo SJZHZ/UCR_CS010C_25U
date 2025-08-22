@@ -23,7 +23,7 @@ int main ()
     std::cout << "-----WHAT IF mymap['d'] IS NOT SET BUT IS ACCESSED-----\n";
     std::cout << "mymap['d'] is " << mymap['d'] << '\n';
     std::cout << "mymap now contains " << mymap.size() << " elements.\n";
-    std::cout << "When mymap['d'] is accessed, it is created with a default value(actually nothing).\n";
+    std::cout << "-----EXPLANATION: When mymap['d'] is accessed, it is created with a default value(actually nothing).-----\n";
     mymap['d'] = "now changed to something else";
     std::cout << "mymap['d'] is " << mymap['d'] << '\n';
     std::cout << "mymap now contains " << mymap.size() << " elements.\n";
